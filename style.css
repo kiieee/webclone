@@ -86,11 +86,12 @@ h2 {
 }
 
 .start {
-    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
-
+    padding-left: 900px;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 footer { 
