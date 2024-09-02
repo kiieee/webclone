@@ -4,10 +4,11 @@
 
 .wrapper {
     margin: 0 auto;
-    padding:5px;
+    padding:0px;
     overflow: hidden;
     background-color: #53454542;  
     opacity: 60%;
+    height: 70px;
 }
 
 
@@ -25,8 +26,8 @@ ul {
 
 
 .logo {
-    width: 120px;
-    height: 60px;
+    width: 90px;
+    height: 40px;
 } 
 
 
@@ -44,23 +45,83 @@ ul {
 
 
 a {
-    color:white;
+    color:rgb(0, 0, 0);
     font-weight: 100;
     letter-spacing: 2px;
     text-decoration: none;
-    background:rgba(170, 55, 128, 0.541);
-    padding:20px 5px;
+    padding:10px 5px;
     display: inline-block;
     width: 100px;
     text-align: center;
     transition:all 0.5s;
   }
 
+.signup {
+    color: black;
+    background-color: white;
+}
 
 
-.bottomnav {
+.main{
+    background-image: url(tropical2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 840px;
+}
+
+h1, h2 {
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 240px;
+    font-size: 60px;
+}
+
+h2 {
+    width: 500px;
+    text-align: center;
+    padding-left: 700px;
+}
+
+.start {
+    background-color: white;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+
+}
+
+footer { 
+    position: absolute; 
+    bottom: 0; 
+    z-index: 10;
+    width: 99%;
+    height: 80px;
+}
+
+.bottomnav {
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+    background-color: black;
+}
+
+.botnavlist {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
     justify-content: space-between;
-    flex-wrap: wrap;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    width: inherit;
+    padding: 0px;
+}
+
+.botlink {
+    color: white;
 }
