@@ -4,12 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>webclone</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <img class="logo" src="Flickr-Logo.png" style="width:20px; height:10px;">
-        <div class="search">
-            <input type="text" placeholder="Photos, people or groups">
+        <div class=wrapper>
+            <ul class="topnav">
+                <li> <img class="logo" src="Flickr-Logo.png"> </li>
+                <li>
+                    <div class="search"> 
+                        <input type="text" placeholder="Photos, people or groups">
+                    </div>
+                </li>
+                <li><a class="toplink" href="#">Log in</a></li>
+                <li><a class="toplink" href="#"> Sign up</a></li>
+            </ul>
         </div>
     </header>
     <h1>Find your inspiration.</h1>
@@ -18,7 +27,7 @@
     <a></a>
     <a></a>
     <footer>
-        <nav class="flex-nav">
+        <nav class="bottomnav">
             <ul>
               <li><a href="#">About</a></li>
               <li><a href="#">Jobs</a></li>
